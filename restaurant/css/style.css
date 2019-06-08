@@ -1,0 +1,237 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: whitesmoke;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgb(53, 4, 4);
+    color: antiquewhite;
+    margin: 0px;
+    padding-top: 0px;
+    min-height: 50px;
+}
+
+#info {
+    width: 77%;
+    float: left;
+}
+
+#open {
+    width: 23%;
+    float: right;
+}
+
+nav {
+    background-color: coral;
+    min-height: 50px;
+    padding-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: floralwhite;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+.homesec {
+    background-color: whitesmoke;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sec-1 {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    line-height: 2em;
+    padding-right: 25px;
+}
+
+.btn {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn1 {
+    background-color: rgb(29, 24, 24);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.banner {
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+}
+
+.aboutsec {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.aboutsec h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sec-1 h1 {
+    text-align: left;
+    text-decoration: none;
+    line-height: 1.6em;
+}
+
+.sec-2 {
+    width: 50%;
+    float: left;
+    padding-right: 25px;
+    box-sizing: border-box;
+    line-height: 1.6em;
+    margin-top: 30px;
+}
+
+.sec-2 h1 {
+    text-decoration: none;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.servicesec {
+    background-color: whitesmoke;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.servicesec h1 {
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.sec-3 {
+    width: 33%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px 30px 35px 30px;
+    background-color: white;
+}
+
+.sec-3 h1 {
+    text-decoration: none;
+    text-align: left;
+}
+
+footer {
+    background-color: rgb(29, 24, 24);
+    color: rgb(233, 199, 199);
+}
+
+#top-footer {
+    background-color: coral;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    line-height: 2em;
+}
+
+#main-footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.block {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.block ul {
+    margin: 0;
+    padding: 0;
+}
+
+.block li {
+    list-style: none;
+}
+
+.block a {
+    text-decoration: none;
+    color: rgb(233, 199, 199);
+}
+
+form input {
+    padding: 10px;
+}
+
+#chef {
+    background-color: white;
+}
+
+#chef h1 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.chef img {
+    float: left;
+    width: 25%;
+    padding: 40px;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 30%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
