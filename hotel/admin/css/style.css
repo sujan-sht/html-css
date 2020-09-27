@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+.far fa-bell fa-2x,.far fa-envelope fa-2x,.fas fa-cog fa-2x{
+	float:left;
+	position:absolute;
+
+}
+li {
+	padding-left:20px;
+	float:right;
+}
